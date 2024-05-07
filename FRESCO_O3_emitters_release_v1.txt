@@ -2,10 +2,10 @@
 # FRESCO OIII emitter catalogue v1
 # :name: GOODS fields identifier (GN/GS) and ID from the FRESCO grizli data reduction v7.3 
 # ra, dec: coordinates of the source in the F210M+F444W image from the FRESCO grizli data reduction v7.3 (also see further Weibel+2024)
-# z : redshift of the OIII emission
-# flux_*, err_* : grizli best-fit line flux and error using a fixed redshift
-# muv, muv_err_84, muv_err_16: rest-frame UV magnitude and 16-84 percentiles error from the best-fit Prospector model (see Naidu+, in prep.)
-# f_f444w, e_f444w: F444W flux and error from the FRESCO grizli data reduction v7.3 (also see further Weibel+2024 for details on the imaging data reduction)
+# z : redshift of the OIII emitter
+# flux_*, err_* : grizli best-fit line flux and error using a fixed redshift in cgi units [erg/s/cm**2]
+# muv, muv_err_84, muv_err_16: rest-frame UV magnitude [AB] and 16-84 percentiles error from the best-fit Prospector model (see Naidu+, in prep.)
+# f_f444w, e_f444w: F444W flux and error in nJy from the FRESCO grizli data reduction v7.3. PSF-matched, aperture-corrected fluxes and errors with 5% error floor (also see further Weibel+2024 for details on the imaging data reduction)
 #################
 # name     ra          dec         z                  flux_Hb                err_Hb                 flux_O3_4960           err_O3_4960            flux_O3_5008           err_O3_5008            muv    muv_err_84           muv_err_16            f_f444w            e_f444w           
   gs_15234 53.0669706  -27.7994393 8.538168630738735  0.0                    0.0                    9.415371183022875E-19  3.2143880893300278E-19 2.387854227519615E-18  3.2385344786133643E-19 -20.33 0.18999999999999773  -0.120000000000001    70.52555480452276  8.743964371389646 
