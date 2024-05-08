@@ -1,6 +1,6 @@
 #################
 # FRESCO OIII emitter catalogue v1
-# :name: GOODS fields identifier (GN/GS) and ID from the FRESCO grizli data reduction v7.3 
+# name: GOODS fields identifier (GN/GS) and ID from the FRESCO grizli data reduction v7.3 
 # ra, dec: coordinates of the source in the F210M+F444W image from the FRESCO grizli data reduction v7.3 (also see further Weibel+2024)
 # q_mean : Visual inspection quality flag, averaged to half-integer over 4 inspections
 # z : redshift of the OIII emitter
