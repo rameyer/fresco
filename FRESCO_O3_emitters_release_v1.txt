@@ -2,6 +2,7 @@
 # FRESCO OIII emitter catalogue v1
 # :name: GOODS fields identifier (GN/GS) and ID from the FRESCO grizli data reduction v7.3 
 # ra, dec: coordinates of the source in the F210M+F444W image from the FRESCO grizli data reduction v7.3 (also see further Weibel+2024)
+# q_mean : Visual inspection quality flag, averaged to half-integer over 4 inspections
 # z : redshift of the OIII emitter
 # flux_*, err_* : grizli best-fit line flux and error using a fixed redshift in cgi units [erg/s/cm**2]
 # muv, muv_err_84, muv_err_16: rest-frame UV magnitude [AB] and 16-84 percentiles error from the best-fit Prospector model (see Naidu+, in prep.)
